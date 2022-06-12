@@ -42,7 +42,7 @@ function draw() {
     image(video, 0, 0, 380, 380);
    
     if (status != "") {
-        for (i == 0; i < objects.length; i++) {
+        for (var i = 0; i < objects.length; i++) {
             if (objects[i].label != "person") {
                 alert.play();
                 document.getElementById("number_of_objects").innerHTML = "baby not found"
